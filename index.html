@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>John — Creative Technologist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav" id="nav">
+      <a href="#works">Works</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero__text">
+        <h1 class="hero__title">Hi, I am John,<br>Creative Technologist</h1>
+        <p class="hero__desc">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        <a href="#" class="btn">Download Resume</a>
+      </div>
+      <img class="hero__photo" src="images/avatar.png" alt="John, creative technologist" width="240" height="240">
+    </section>
+
+    <section class="posts" id="blog">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title">Recent posts</h2>
+          <a href="#" class="section-link">View all</a>
+        </div>
+        <div class="posts__grid">
+          <article class="post">
+            <h3 class="post__title">Making a design system from scratch</h3>
+            <p class="post__meta"><span>12 Feb 2020</span><span>Design, Pattern</span></p>
+            <p class="post__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+          </article>
+          <article class="post">
+            <h3 class="post__title">Creating pixel perfect icons in Figma</h3>
+            <p class="post__meta"><span>12 Feb 2020</span><span>Figma, Icon Design</span></p>
+            <p class="post__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="works container" id="works">
+      <h2 class="section-title">Featured works</h2>
+
+      <article class="work">
+        <img class="work__img" src="images/work1.png" alt="Designing Dashboards preview">
+        <div class="work__body">
+          <h3 class="work__title">Designing Dashboards</h3>
+          <p class="work__tags"><span class="badge">2020</span><span class="work__cat">Dashboard</span></p>
+          <p class="work__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        </div>
+      </article>
+
+      <article class="work">
+        <img class="work__img" src="images/work2.png" alt="Vibrant Portraits of 2020 preview">
+        <div class="work__body">
+          <h3 class="work__title">Vibrant Portraits of 2020</h3>
+          <p class="work__tags"><span class="badge">2018</span><span class="work__cat">Illustration</span></p>
+          <p class="work__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        </div>
+      </article>
+
+      <article class="work">
+        <img class="work__img" src="images/work3.png" alt="36 Days of Malayalam type preview">
+        <div class="work__body">
+          <h3 class="work__title">36 Days of Malayalam type</h3>
+          <p class="work__tags"><span class="badge">2018</span><span class="work__cat">Typography</span></p>
+          <p class="work__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer" id="contact">
+    <ul class="social">
+      <li>
+        <a href="#" aria-label="Facebook">
+          <svg viewBox="0 0 32 32" aria-hidden="true"><path fill-rule="evenodd" d="M5 2h22a3 3 0 0 1 3 3v22a3 3 0 0 1-3 3h-6.2V19.4h3.1l.5-3.7h-3.6v-2.3c0-1.1.4-1.8 1.9-1.8H24V8.3c-.3 0-1.4-.2-2.8-.2-2.8 0-4.6 1.7-4.6 4.7v2.9h-3.1v3.7h3.1V30H5a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3z"/></svg>
+        </a>
+      </li>
+      <li>
+        <a href="#" aria-label="Instagram">
+          <svg class="is-outline" viewBox="0 0 32 32" aria-hidden="true" stroke="currentColor" stroke-width="2.6"><rect x="3" y="3" width="26" height="26" rx="7.5"/><circle cx="16" cy="16" r="6.2"/><circle cx="23.6" cy="8.4" r="1.2" fill="currentColor" stroke="none"/></svg>
+        </a>
+      </li>
+      <li>
+        <a href="#" aria-label="Twitter">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg>
+        </a>
+      </li>
+      <li>
+        <a href="#" aria-label="LinkedIn">
+          <svg viewBox="0 0 32 32" aria-hidden="true"><path fill-rule="evenodd" d="M5 2h22a3 3 0 0 1 3 3v22a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3zm1.6 11.2V25h4V13.2h-4zM8.6 7.2a2.3 2.3 0 1 0 0 4.6 2.3 2.3 0 0 0 0-4.6zM13.2 13.2V25h4v-6.1c0-1.6.7-2.7 2.1-2.7 1.3 0 1.9 1 1.9 2.6V25h4v-6.9c0-3.3-1.7-5.2-4.4-5.2-1.5 0-2.7.7-3.6 1.9v-1.6h-4z"/></svg>
+        </a>
+      </li>
+    </ul>
+    <p class="copyright">Copyright ©2020 All rights reserved</p>
+  </footer>
+
+  <script>
+    const burger = document.getElementById('burger');
+    const nav = document.getElementById('nav');
+    burger.addEventListener('click', () => {
+      const open = nav.classList.toggle('is-open');
+      burger.setAttribute('aria-expanded', open);
+      burger.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    });
+    nav.addEventListener('click', e => {
+      if (e.target.tagName === 'A') {
+        nav.classList.remove('is-open');
+        burger.setAttribute('aria-expanded', 'false');
+      }
+    });
+  </script>
+</body>
+</html>
