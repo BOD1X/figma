@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 492 360">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d9f2e6"/><stop offset="1" stop-color="#9fd8bf"/></linearGradient></defs>
+  <rect width="492" height="360" fill="url(#g)"/>
+  <path d="M170 250h110l-12 80h-86z" fill="#c9714d"/><rect x="164" y="238" width="122" height="18" rx="4" fill="#dd875f"/>
+  <path d="M225 240c0-60-4-110-34-150M225 240c0-50 8-96 40-126" stroke="#2f7d57" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M191 90c-34-4-52-26-54-46 30 0 56 12 54 46zM265 114c30-6 48-26 50-46-30 2-52 14-50 46zM214 168c-30 0-50-14-56-34 30-4 52 8 56 34z" fill="#3fa371"/>
+  <g transform="translate(318 70)"><rect width="150" height="104" rx="10" fill="#21243d"/>
+    <path d="M14 78l24-20 22 12 26-36 24 20 26-30" stroke="#7de0c3" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="14" y="14" width="46" height="8" rx="4" fill="#ffffff" opacity=".6"/><circle cx="130" cy="18" r="6" fill="#ff6464"/></g>
+  <circle cx="400" cy="230" r="34" fill="none" stroke="#21243d" stroke-width="6"/><path d="M400 230l16-16" stroke="#ff6464" stroke-width="6" stroke-linecap="round"/>
+  <text x="400" y="290" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="22" fill="#21243d">62%</text>
+</svg>
